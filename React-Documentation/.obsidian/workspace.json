@@ -162,12 +162,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa77b5856bec117b",
+  "active": "4383d0b38ea7875a",
   "lastOpenFiles": [
     "Getting Started/Creating Your React App with Vite.md",
+    "Getting Started",
+    "Create App/Creating Your React App with Vite.md",
+    "Create App",
     "attachments/vite-and-react.png",
     "attachments",
-    "Approachable React.md",
-    "Getting Started"
+    "Approachable React.md"
   ]
 }
