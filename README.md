@@ -1,3 +1,12 @@
+# Approachable React
+
+Go beyond the docs.
+
+Production-level code & concepts for newbs & pros.
+
+Join me for an exploration of React in an approachable style, to help you with the basics and advanced concepts of React. Starting with the basics of the Component structure and Parent
+& Child relationships, to more advanced concepts like Hooks, Custom Hooks, the Store, and working with Redux & Thunk.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -22,7 +31,7 @@ export default tseslint.config({
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
@@ -31,7 +40,7 @@ export default tseslint.config({
 
 ```js
 // eslint.config.js
-import react from 'eslint-plugin-react'
+import react from 'eslint-plugin-react';
 
 export default tseslint.config({
   // Set the react version
@@ -46,5 +55,5 @@ export default tseslint.config({
     ...react.configs.recommended.rules,
     ...react.configs['jsx-runtime'].rules,
   },
-})
+});
 ```
