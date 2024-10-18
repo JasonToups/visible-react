@@ -11,14 +11,10 @@
             "id": "4383d0b38ea7875a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Approachable React.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Approachable React"
+              "title": "New tab"
             }
           }
         ]
@@ -164,10 +160,19 @@
   },
   "active": "4383d0b38ea7875a",
   "lastOpenFiles": [
+    "Getting-Started/GitHub-and-Deploy-to-GitHub-Pages.md",
+    "Getting-Started/Getting-Started.md",
+    "Getting-Started/Creating-Your-React-App-with-Vite.md",
+    "Getting-Started/Creating-Your-React-App jwith Vite.md",
+    "Approachable React.md",
+    "Approachable-React.md",
+    "Getting-Started/GitHub & Deploy to GitHub Pages.md",
+    "Getting-Started/Getting Started.md",
+    "Getting-Started/Creating Your React App with Vite.md",
+    "Getting-Started",
     "Getting Started/GitHub & Deploy to GitHub Pages.md",
     "Getting Started/Getting Started.md",
     "Getting Started/Creating Your React App with Vite.md",
-    "Approachable React.md",
     "Getting Started",
     "Create App/Creating Your React App with Vite.md",
     "Create App",
