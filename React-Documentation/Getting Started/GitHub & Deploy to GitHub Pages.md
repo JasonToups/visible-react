@@ -52,6 +52,17 @@ git push
 
 After that's done, go to GitHub and checkout all of the code that you just pushed up to GitHub.
 
+### Update GitHub Project Actions Permissions
+
+Now that you have pushed your code up, you should update the Project Settings and give the GitHub Actions the appropriate privileges to run the Workflow we are about to setup.
+
+On your GitHub Project go to --> `settings/actions/general`
+
+Now scroll down to the **WorkFlow Permissions** heading and update the radio button to:
+`Read and write permissions`
+
+And click Save.
+
 ## Hosting your Code on GitHub Pages
 Now that we have our code up on GitHub, let's configure Vite to work with GitHub Pages.
 
@@ -156,3 +167,42 @@ gcmsg "adding github pages workflow deploy"
 git push
 ```
 
+### Check GitHub Actions
+Now that you have pushed up the deploy workflow file, you should see the Build & Deploy in the GitHub Project Actions tab.
+
+Open the Actions tab, and then look under the Actions Navbar, and you should see All Workflows. Then you should see your workflow running.
+
+> Hopefully it's successful 🤞 If it fails, click on the job and look at the errors.
+
+### On GitHub, setup GitHub Pages
+
+Now that we have our Deploy Action running on our main branch for every commit, we need to configure our Project GitHub pages.
+
+Go to:
+`project-name/settings/Pages`
+
+In the GitHub Pages settings, look for the  Build and Deployment section.
+
+- Source, choose **Deploy from a branch**
+- Branch, choose **gh-pages**
+
+Now click Save.
+
+### Check Actions & Check Deployed Project
+
+After saving the Pages settings, go to the Actions tab, and you should see the new deployment running.
+
+After the workflow succeeds, you should head to your deployment by clicking on the Code tab.
+
+Then on the right side, you should see the Deployments heading.
+The `github-pages` branch should be listed below.
+Click on it.
+
+Then you should see a link directly to your hosted project.
+
+Click it and verify that everything looks good.
+
+Congrats! 🎉
+You should see your deployed Vite & React project on GitHub Pages.
+
+Now that wasn't so bad, was it?
