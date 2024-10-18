@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "308e61e11d978338",
+    "type": "split",
+    "children": [
+      {
+        "id": "10e2be539c140792",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4383d0b38ea7875a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Create App/Creating Your React App with Vite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Creating Your React App with Vite"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a9bae7e18bf2789",
+    "type": "split",
+    "children": [
+      {
+        "id": "eafc0d2b90644656",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa77b5856bec117b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2f9a669df4317e2e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "45b749f4a2657557",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb9a98914557f1f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa07f03b4f2c3146",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76ab96641efa1ded",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Create App/Creating Your React App with Vite.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Creating Your React App with Vite"
+            }
+          },
+          {
+            "id": "8ab335db61116285",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Create App/Creating Your React App with Vite.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Creating Your React App with Vite"
+            }
+          },
+          {
+            "id": "184f93687091fceb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd32a9e617e2c9bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Create App/Creating Your React App with Vite.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Creating Your React App with Vite"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4383d0b38ea7875a",
+  "lastOpenFiles": [
+    "attachments/vite-and-react.png",
+    "Create App/Creating Your React App with Vite.md",
+    "attachments",
+    "Approachable React.md",
+    "Create App"
+  ]
+}
