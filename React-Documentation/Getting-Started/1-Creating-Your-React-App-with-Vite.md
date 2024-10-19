@@ -46,4 +46,4 @@ You can click on the button and it will show the click count. If you look into `
 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
 ```
 
-Now that this is done, let's push this code up to [Github & Setup GitHub Pages to host your Project](GitHub-and-Deploy-to-GitHub-Pages.md).
+Now that this is done, let's push this code up to [Github & Setup GitHub Pages to host your Project](2-GitHub-and-Deploy-to-GitHub-Pages.md).

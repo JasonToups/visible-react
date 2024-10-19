@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React-Documentation/Approachable React.md",
-                "mode": "source",
+                "file": "React-Documentation/Outline of Topics.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Approachable React"
+              "title": "Outline of Topics"
             }
           }
         ]
@@ -145,6 +145,10 @@
   },
   "active": "41d566a4d8f181df",
   "lastOpenFiles": [
+    "React-Documentation/Components/Components.md",
+    "React-Documentation/Outline of Topics.md",
+    "React-Documentation/Approachable-React.md",
+    "React-Documentation/Components",
     "node_modules/fsevents/LICENSE",
     "node_modules/fsevents/fsevents.node",
     "node_modules/fsevents/package.json",
@@ -156,8 +160,6 @@
     "React-Documentation/Approachable React.md",
     "node_modules/acorn",
     "node_modules/nanoid",
-    "node_modules/minimatch",
-    "node_modules/fast-levenshtein",
-    "node_modules/ignore"
+    "node_modules/minimatch"
   ]
 }

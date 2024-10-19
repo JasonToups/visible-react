@@ -11,10 +11,14 @@
             "id": "4383d0b38ea7875a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Getting-Started/Getting-Started.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Getting-Started"
             }
           }
         ]
@@ -160,9 +164,18 @@
   },
   "active": "4383d0b38ea7875a",
   "lastOpenFiles": [
-    "Getting-Started/GitHub-and-Deploy-to-GitHub-Pages.md",
+    "Getting-Started/4-UI-with-ShadCN.md",
     "Getting-Started/Getting-Started.md",
-    "Getting-Started/Creating-Your-React-App-with-Vite.md",
+    "Getting-Started/3-Styling-with-Tailwind-CSS.md",
+    "Getting-Started/2-GitHub-and-Deploy-to-GitHub-Pages.md",
+    "Getting-Started/1-Creating-Your-React-App-with-Vite.md",
+    "Getting-Started/Styling with Tailwind CSS.md",
+    "Outline of Topics.md",
+    "Untitled.md",
+    "Components/Components.md",
+    "Components/Untitled.md",
+    "Components",
+    "Untitled",
     "Getting-Started/Creating-Your-React-App jwith Vite.md",
     "Approachable React.md",
     "Approachable-React.md",
