@@ -2,9 +2,9 @@ import SideBarTrigger from './app-sidebar-trigger';
 
 export default function Header() {
   return (
-    <header className='flex flex-row grow'>
+    <header className='flex flex-row grow p-3 items-center'>
       <SideBarTrigger />
-      <h2>Nav Item</h2>
+      <h1 className='text-4xl'>Visible React</h1>
     </header>
   );
 }

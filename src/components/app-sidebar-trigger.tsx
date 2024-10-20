@@ -10,7 +10,7 @@ export default function SidebarTrigger() {
       data-sidebar='trigger'
       variant='ghost'
       size='icon'
-      className='h-7 w-7 lucide lucide-panel-left'
+      className='h-12 w-12 lucide lucide-panel-left'
       onClick={toggleSidebar}
     >
       <PanelLeft />
