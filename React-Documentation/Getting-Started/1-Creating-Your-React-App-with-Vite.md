@@ -1,6 +1,7 @@
 # Creating your React App with Vite
+We will be using Vite to setup our App. But that's not all. We can streamline a ton of processes by setting up our Styling & UI frameworks by setting up Tailwind & ShadCN/UI at the same time
 
-## Setup your App
+## Setup your App with Vite
 
 You can use React's [Create React App](https://create-react-app.dev/) in the command line to create your React App, or you can use **Vite** to create your App.
 
@@ -46,4 +47,6 @@ You can click on the button and it will show the click count. If you look into `
 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
 ```
 
-Now that this is done, let's push this code up to [Github & Setup GitHub Pages to host your Project](2-GitHub-and-Deploy-to-GitHub-Pages.md).
+
+## Next Up! - Code with Style 💃🕺
+Now that we've created our Application, let's add some style to it - [2-Styling-and-UI](2-Styling-and-UI.md)

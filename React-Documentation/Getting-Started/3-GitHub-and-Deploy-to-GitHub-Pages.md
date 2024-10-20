@@ -220,3 +220,5 @@ Congrats! 🎉
 You should see your deployed Vite & React project on GitHub Pages.
 
 Now that wasn't so bad, was it?
+
+Now let's get Stylish and add some personality to our App. [2-Styling-and-UI](2-Styling-and-UI.md)
