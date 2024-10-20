@@ -1,4 +1,5 @@
 ## Git Started
+
 Now that you have your local React Project built with Vite, you should version-control your code with Git.
 
 ```
@@ -6,14 +7,17 @@ git init
 ```
 
 ### GitHub CLI
+
 And host your code on GitHub, by using the [GitHub CLI](https://cli.github.com/).
 
 Install the GitHub CLI with brew:
+
 ```
 brew install gh
 ```
 
 Now create your GitHub repo in your Terminal:
+
 ```
 gh repo create
 ```
@@ -23,6 +27,7 @@ This will start the interactive GitHub CLI Repo Creation workflow.
 After that's done and you have your repo created, commit all of your code and push it up to your repo.
 
 ### Oh My ZSH Workflow (optional, but encouraged)
+
 I use [Oh My ZSH](https://ohmyz.sh/) in my Shell environment, so it has many handy aliases to speed up my work.
 
 I would recommend installing it if you are following along, since I will probably be using the Shell Aliases
@@ -30,12 +35,15 @@ I would recommend installing it if you are following along, since I will probabl
 After installing Oh My ZSH, you can see the list of Aliases by typing `alias`
 
 To add all of your changed files:
+
 ```
 gaa
 ```
+
 This is `git add --all`
 
 To commit all of the files with a new message:
+
 ```
 gcmsg
 ```
@@ -45,7 +53,9 @@ This is `git commit --message`
 > This may look strange at first, but this significantly speeds up your workflow by reducing the amount of keystrokes to commit your work. Commit often, to backup your work. 💡
 
 ### Push Your Code Up
+
 Now push your code up to GitHub
+
 ```
 git push
 ```
@@ -64,34 +74,36 @@ Now scroll down to the **WorkFlow Permissions** heading and update the radio but
 And click Save.
 
 ## Hosting your Code on GitHub Pages
+
 Now that we have our code up on GitHub, let's configure Vite to work with GitHub Pages.
 
 ### Configure Vite
+
 In the root directory, open `vite.config.js`
 
 It should look something like this:
 
 ```ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+});
 ```
 
 Within the `defineConfig`, we are going to add the `base` property to point to our GitHub Repo:
 
 ```ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/approachable-react" // <-- enter your repo name here
-})
+  base: '/visible-react', // <-- enter your repo name here
+});
 ```
 
 ### Create GitHub Deploy Script
@@ -99,6 +111,7 @@ export default defineConfig({
 In your root folder, create the `.github/workflows` folder, and create the deploy file within.
 
 If you are using VSCode, you can streamline this action by creating a new file and calling it:
+
 ```
 .github/workflows/deploy.yml
 ```
@@ -168,6 +181,7 @@ git push
 ```
 
 ### Check GitHub Actions
+
 Now that you have pushed up the deploy workflow file, you should see the Build & Deploy in the GitHub Project Actions tab.
 
 Open the Actions tab, and then look under the Actions Navbar, and you should see All Workflows. Then you should see your workflow running.
@@ -181,7 +195,7 @@ Now that we have our Deploy Action running on our main branch for every commit, 
 Go to:
 `project-name/settings/Pages`
 
-In the GitHub Pages settings, look for the  Build and Deployment section.
+In the GitHub Pages settings, look for the Build and Deployment section.
 
 - Source, choose **Deploy from a branch**
 - Branch, choose **gh-pages**
