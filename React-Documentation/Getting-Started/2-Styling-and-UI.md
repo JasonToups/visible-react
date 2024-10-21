@@ -92,6 +92,13 @@ Since you should run this whenever you are developing, I would recommend adding 
   },
 ```
 
+### Remove Conflicting CSS Stylesheets
+The only stylesheets you should be using with Tailwind for right now are the `input.css` and `output.css` sheets.
+
+Remove the `App.css` and `index.css` stylesheets, if they exist.
+
+Also, look for any `.tsx` files that might be importing those stylesheets, and remove those imports.
+
 ## Working with Tailwind
 If you haven't worked with Tailwind before, I would highly recommend reading their [Utility-First Fundamentals](https://tailwindcss.com/docs/utility-first) to get a better understanding about the benefits of working with Tailwind.
 
