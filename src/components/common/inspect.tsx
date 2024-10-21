@@ -1,4 +1,4 @@
-import React, { useState, ReactNode } from 'react';
+import { useState, ReactNode } from 'react';
 import { Button } from '../ui/button'; // Import the button component
 import { motion, AnimatePresence } from 'framer-motion'; // Import framer motion for animations
 import { Eye, EyeClosed, CircleX } from 'lucide-react'; // Import the Eye and CircleX icons from lucide-react
