@@ -35,9 +35,9 @@ const Inspect = ({ name, children, code }: InspectProps) => {
           <Button
             variant='ghost'
             onClick={toggleCode}
-            className='ml-2 text-blue-500 underline'
+            className='ml-2 text-blue-500 underline px-2 py-6'
           >
-            <h2 className='text-2xl font-bold p-3'>{`<${name}/>`}</h2>
+            <h2 className='text-2xl font-bold'>{`<${name}/>`}</h2>
           </Button>
         </div>
       )}
