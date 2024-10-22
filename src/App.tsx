@@ -10,7 +10,7 @@ import DeployToGithubPages from './components/pages/getting-started/DeployToGitH
 
 function App() {
   return (
-    <Router>
+    <Router basename='/visible-react'>
       <Layout>
         <Header />
         <Routes>
