@@ -10,6 +10,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarSeparator,
 } from '@/components/ui/sidebar';
 import {
   Collapsible,
@@ -39,9 +40,9 @@ const gettingStartedItems = [
 export function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarHeader>Explore Topics</SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
+          <SidebarHeader></SidebarHeader>
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem key='Home'>
@@ -54,6 +55,7 @@ export function AppSidebar() {
               </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
+          <SidebarSeparator />
         </SidebarGroup>
         <Collapsible defaultOpen className='group/collapsible'>
           <SidebarGroup>
