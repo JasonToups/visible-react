@@ -241,7 +241,7 @@ Join me for an exploration of React in an visible style, to help you with the ba
       </div>
     </section>
   );
-  `;function dpe(){return O.jsx(zv,{name:"Hero",code:upe,children:O.jsxs("section",{className:"p-10 flex flex-col items-center justify-center h-screen bg-gray-800 text-white",children:[O.jsx("h1",{className:"text-5xl py-7",children:"Visible React"}),O.jsx("div",{className:"prose lg:prose-xl text-left leading-8 max-w-lg",children:O.jsx(spe,{children:cpe})})]})})}const ppe=`  return (
+  `;function dpe(){return O.jsx(zv,{name:"Home",code:upe,children:O.jsxs("section",{className:"p-10 flex flex-col items-center justify-center h-screen bg-gray-800 text-white",children:[O.jsx("h1",{className:"text-5xl py-7",children:"Visible React"}),O.jsx("div",{className:"prose lg:prose-xl text-left leading-8 max-w-lg",children:O.jsx(spe,{children:cpe})})]})})}const ppe=`  return (
     <section className='p-10 flex flex-col items-center justify-center h-screen bg-gray-800 text-white'>
       <h1 className='text-5xl py-7'>Visible React</h1>
       <div className='prose lg:prose-xl text-left leading-8 max-w-lg'>
