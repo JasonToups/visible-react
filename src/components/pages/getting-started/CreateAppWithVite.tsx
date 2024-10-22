@@ -1,6 +1,6 @@
 import Inspect from '../../common/Inspect';
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism'; // Correctly importing vs2015 theme
+import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 
 const code = `  return (
     <section className='p-10 flex flex-col items-center justify-center h-screen bg-gray-800 text-white'>
@@ -11,6 +11,8 @@ const code = `  return (
     </section>
   );
   `;
+
+const buttonOnClick = `<button onClick={() => setCount((count) => count + 1)}>count is {count}</button>`;
 
 const CreateAppWithVite = () => {
   return (
@@ -139,11 +141,11 @@ const CreateAppWithVite = () => {
         </p>
 
         <SyntaxHighlighter
-          language='typescript' // Set the language you're highlighting (e.g., "javascript")
-          style={dracula} // Set the VSCode-like theme
-          wrapLongLines={true} // Ensures long lines wrap inside the container
+          language='typescript'
+          style={dracula}
+          wrapLongLines={true}
         >
-          {`<button onClick={() => setCount((count) => count + 1)}>count is {count}</button>`}
+          {buttonOnClick}
         </SyntaxHighlighter>
 
         <h2>Next Up! - Code with Style 💃🕺</h2>
