@@ -1,5 +1,5 @@
 import { Palette, Home, Gift, Cat, ChevronDown } from 'lucide-react';
-
+import { NavLink } from 'react-router-dom'; // Use NavLink for routing
 import {
   Sidebar,
   SidebarContent,
@@ -21,20 +21,21 @@ import {
 const gettingStartedItems = [
   {
     title: 'Create App with Vite',
-    url: 'getting-started/create-app-with-vite',
+    url: '/getting-started/create-app-with-vite', // Add leading slash to ensure it's an absolute URL
     icon: Gift,
   },
   {
     title: 'Styling & UI',
-    url: 'getting-started/styling-and-ui',
+    url: '/getting-started/styling-and-ui', // Add leading slash
     icon: Palette,
   },
   {
     title: 'Deploy to GitHub Pages',
-    url: 'getting-started/deploy-to-github-pages',
+    url: '/getting-started/deploy-to-github-pages', // Add leading slash
     icon: Cat,
   },
 ];
+
 export function AppSidebar() {
   return (
     <Sidebar>
@@ -45,10 +46,10 @@ export function AppSidebar() {
             <SidebarMenu>
               <SidebarMenuItem key='Home'>
                 <SidebarMenuButton asChild>
-                  <a href='#'>
+                  <NavLink to='/'>
                     <Home />
                     <span>Home</span>
-                  </a>
+                  </NavLink>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
@@ -68,10 +69,10 @@ export function AppSidebar() {
                   {gettingStartedItems.map((item) => (
                     <SidebarMenuItem key={item.title}>
                       <SidebarMenuButton asChild>
-                        <a href={item.url}>
+                        <NavLink to={item.url}>
                           <item.icon />
                           <span>{item.title}</span>
-                        </a>
+                        </NavLink>
                       </SidebarMenuButton>
                     </SidebarMenuItem>
                   ))}
