@@ -1,4 +1,4 @@
-import Inspect from '../../common/Inspect';
+import Inspect from '../../common/tempInspect';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism'; // Correctly importing vs2015 theme
 
