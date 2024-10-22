@@ -19,7 +19,7 @@
   }
 
   a {
-    @apply text-blue-600 underline hover:text-blue-800;
+    /* @apply text-blue-600 underline hover:text-blue-800; */
   }
 
   section {
@@ -32,11 +32,11 @@
   }
 
   ul {
-    @apply list-disc pl-5 mb-4;
+    /* @apply list-disc pl-5 mb-4; */
   }
 
   li {
-    @apply mb-2;
+    /* @apply mb-2; */
   }
   :root {
     --background: 0 0% 100%;

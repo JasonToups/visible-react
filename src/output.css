@@ -583,14 +583,7 @@ p {
 }
 
 a {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-  text-decoration-line: underline;
-}
-
-a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
+  /* @apply text-blue-600 underline hover:text-blue-800; */
 }
 
 section {
@@ -611,13 +604,11 @@ pre,
 }
 
 ul {
-  margin-bottom: 1rem;
-  list-style-type: disc;
-  padding-left: 1.25rem;
+  /* @apply list-disc pl-5 mb-4; */
 }
 
 li {
-  margin-bottom: 0.5rem;
+  /* @apply mb-2; */
 }
 
 :root {

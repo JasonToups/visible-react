@@ -19,9 +19,9 @@ const code = `  return (
   );
   `;
 
-export default function Hero() {
+export default function Home() {
   return (
-    <Inspect name='Hero' code={code}>
+    <Inspect name='Home' code={code}>
       <section className='p-10 flex flex-col items-center justify-center h-screen bg-gray-800 text-white'>
         <h1 className='text-5xl py-7'>Visible React</h1>
         <div className='prose lg:prose-xl text-left leading-8 max-w-lg'>

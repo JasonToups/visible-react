@@ -3,7 +3,7 @@ import './input.css';
 import './output.css';
 import Layout from './layout';
 import Header from './components/ui/custom/header';
-import Hero from './components/pages/home/Hero';
+import Home from './components/pages/home/Home';
 import CreateAppWithVite from './components/pages/getting-started/CreateAppWithVite';
 import StylingAndUI from './components/pages/getting-started/StylingAndUI';
 import DeployToGithubPages from './components/pages/getting-started/DeployToGitHubPages';
@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           {/* Home Route */}
-          <Route path='/' element={<Hero />} />
+          <Route path='/' element={<Home />} />
 
           {/* Getting Started Routes */}
           <Route
