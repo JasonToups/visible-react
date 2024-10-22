@@ -15,7 +15,7 @@ const code = `  return (
 const CreateAppWithVite = () => {
   return (
     <Inspect name='CreateAppWithVite' code={code}>
-      <section>
+      <section className='prose lg:prose-xl max-w-2xl mx-auto py-8'>
         <h1>Creating your React App with Vite</h1>
         <p>
           We will be using Vite to set up our App. But that's not all. We can
