@@ -105,14 +105,14 @@ const CreateAppWithVite = () => {
         </p>
         <p>
           Then when all of the Node Packages have been installed, run your app:
-          <SyntaxHighlighter
-            language='typescript' // Set the language you're highlighting (e.g., "javascript")
-            style={dracula} // Set the VSCode-like theme
-            wrapLongLines={true} // Ensures long lines wrap inside the container
-          >
-            npm run dev
-          </SyntaxHighlighter>
         </p>
+        <SyntaxHighlighter
+          language='typescript' // Set the language you're highlighting (e.g., "javascript")
+          style={dracula} // Set the VSCode-like theme
+          wrapLongLines={true} // Ensures long lines wrap inside the container
+        >
+          npm run dev
+        </SyntaxHighlighter>
 
         <p>
           Vite will run your project locally, and show you where the site is
