@@ -22,8 +22,8 @@ const Inspect = ({ name, children, code }: InspectProps) => {
     <div className='relative border'>
       <Button
         className='absolute top-2 right-2 z-10'
-        variant='ghost'
-        size='lg'
+        variant='default'
+        size='inspect'
         onClick={toggleInspect}
       >
         {isInspecting ? <EyeClosed size={40} /> : <Eye size={40} />}
