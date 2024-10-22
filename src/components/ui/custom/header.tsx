@@ -1,5 +1,5 @@
 import SideBarTrigger from './app-sidebar-trigger';
-import Inspect from '../../common/inspect';
+import Inspect from '../../common/Inspect';
 
 const code = `  return (
     <header className='flex flex-row grow p-3 items-center'>
