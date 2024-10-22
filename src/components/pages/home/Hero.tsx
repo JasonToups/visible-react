@@ -1,5 +1,5 @@
 import ReactMarkdown from 'react-markdown';
-import Inspect from './common/inspect';
+import Inspect from '../../common/inspect';
 
 const markdown = `
 Go *beyond the docs*.

@@ -35,7 +35,6 @@ const gettingStartedItems = [
     icon: Cat,
   },
 ];
-
 export function AppSidebar() {
   return (
     <Sidebar>
